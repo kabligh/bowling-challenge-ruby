@@ -1,0 +1,14 @@
+Bowling
+
+Frame class
+- number of rolls allowed:
+  - 1 roll if strike
+  - 2 rolls otherwise
+- score in array
+
+Game class
+- 10 frames
+- Gutter game
+- Perfect game
+
+Final frame
