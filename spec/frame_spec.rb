@@ -42,4 +42,13 @@ describe Frame do
       expect(frame1.rolls[0]).to eq 5
     end
   end
+
+  describe '#score' do
+    it 'gives the score of the frame' do
+      frame1.roll(8)
+      frame1.roll(1)
+      expect(frame1.score).to eq 9
+      p frame1
+    end
+  end
 end
